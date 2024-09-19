@@ -19,7 +19,7 @@ CMD [ "npm" , "start" ]
 
 
 # uske baad terminal mai { docker build . } krenge . ka mtlb current directory iske baad docker image ban jayggi
-#  agr ham personal image id name rkhna chahte hain to { docker build -t Name:ver . } -t stand for tag
+#  agr ham personal  repo name rkhna chahte hain to { docker build -t Name:ver . } -t stand for tag
 # { docker image ls } use krke images ki list check krskte hain
 
 #  container mai app ko run krne k liye { docker run imageId } run krna prega
@@ -29,6 +29,9 @@ CMD [ "npm" , "start" ]
 # container k ander localhost run nh hoga to uske liye { docker run -p 3000:3000 imageId } use krenge us se local ip container k ander or bahar bind hojaygi
 
 #  for remove image { docker rm ImageId }
+
+# image ko delete krne k liye { docker rmi NAME/IMAGE-ID }
+
 
 
 # ----------------- RUNNING CONTAINER IN DETACHED MODE / IN BACKGROUND --------------
