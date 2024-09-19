@@ -19,7 +19,7 @@ CMD [ "npm" , "start" ]
 
 
 # uske baad terminal mai { docker build . } krenge . ka mtlb current directory iske baad docker image ban jayggi
-#  agr ham personal  repo name rkhna chahte hain to { docker build -t Name:ver . } -t stand for tag
+#  agr ham personal  repo name rkhna chahte hain to { docker build -t Name:version . } -t stand for tag
 # { docker image ls } use krke images ki list check krskte hain
 
 #  container mai app ko run krne k liye { docker run imageId } run krna prega
