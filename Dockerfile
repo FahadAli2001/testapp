@@ -8,13 +8,13 @@ COPY . .
 # copy all files to myapp
 
 RUN npm install
-# app ko chalane k liye
+# app ko chalane k liye jo pkg zarori honge wo install honge
 
 #  upr ki char command ko use krke image banegi 
 
 
 CMD [ "npm" , "start" ]
-# uske baad ye command use hogi
+# uske baad ye command use hogi app ko run krne k liye
 
 
 
