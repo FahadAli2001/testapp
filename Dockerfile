@@ -79,4 +79,12 @@ CMD [ "npm" , "start" ]
     # database se connect k doran host ki jaga { host.docker.internal } likhna hota hai
 
 # -------- COMMUNICATION BETWEEN CONTAINER TO CONTAINER -------
-    # 
+    # 2 container apas mai sath mai kaam kr rhe hain 
+    # 1 container is python or any other software and 2 is for database
+    # database run krn k lye
+        #  { docker run -d --env MYSQL_ROOT_PASSWORD="root" --env MYSQL_DATABASE="userinfo" --name mysqldb mysql }
+    # software run krne k liye database mai HOST ki jaga ip dalegi container ki 
+        # { docker inspect ContainerName } network mai IpAddress 
+
+# --------- DOCKER NETWORKS --------------
+    # { docker network create mynet } for creating network
