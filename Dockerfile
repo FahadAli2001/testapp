@@ -88,3 +88,11 @@ CMD [ "npm" , "start" ]
 
 # --------- DOCKER NETWORKS --------------
     # { docker network create mynet } for creating network
+
+
+#                      -------- KUBERNITIES --------------
+
+# ---------  ORCHESTRA ---------
+    # is used to manage containers
+    # pod aik smallest unit hai jsme container run hota hai
+
